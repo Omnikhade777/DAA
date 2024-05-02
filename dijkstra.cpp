@@ -164,7 +164,7 @@ void create_graph() {
     }
 }
 
-/*PS C:\Users\om.nikhade\OneDrive\Desktop\DAA> g++ bellman.cpp
+/*PS C:\Users\om.nikhade\OneDrive\Desktop\DAA> g++ dijkstra.cpp
 PS C:\Users\om.nikhade\OneDrive\Desktop\DAA> ./a.exe
 Enter the number of vertices: 5
 Enter edges (-1 -1 to quit) 1: 1 0
