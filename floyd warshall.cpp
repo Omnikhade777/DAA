@@ -1,4 +1,3 @@
-//Modified Warshall's algorithm for finding shortest path matrix
 #include<iostream>
 using namespace std;
 
@@ -145,3 +144,33 @@ void findpath(int s, int d)
   }
   cout<<path[i]<<endl;
 }
+
+/*
+om@om-Victus-by-HP-Gaming-Laptop-15-fb0xxx:~/DAA$ g++ floydwarshall.cpp
+om@om-Victus-by-HP-Gaming-Laptop-15-fb0xxx:~/DAA$ ./a.out
+Enter number of edges : 4
+Enter Adjancy matrix :
+0 2 0 9
+3 0 4 7
+0 6 0 2
+4 0 4 0
+
+Shortest path matrix is :
+5 2 6 8 
+3 5 4 6 
+6 6 6 2 
+4 6 4 6 
+
+Predecessor matrix is  :
+1 0 1 2 
+1 0 1 2 
+3 2 3 2 
+3 0 3 2 
+
+Enter source vertex (-1 to exit) : 0
+Enter destination vertex : 3
+Shortest path is : 0 -> 1 -> 2 -> 3
+Length of the shortest path is : 8
+
+Enter source vertex (-1 to exit) : -1
+*/
